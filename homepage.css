@@ -1,0 +1,302 @@
+/* ------------------------------ Variables ------------------------------ */
+
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --primary-color: #4CAF50;
+  --secondary-color: #2196F3;
+  --background-color: #f4f4f4;
+  --text-color: #333;
+}
+
+  font-family: "Poppins";
+}
+
+body {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #dde5f4;
+  height: 50vh;
+}
+
+.screen-1 {
+  background: #f1f7fe;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 0 2em #e6e9f9;
+  gap: 2em;
+}
+.screen-1 .logo {
+  margin-top: -3em;
+}
+.screen-1 .email {
+  background: white;
+  box-shadow: 0 0 2em #e6e9f9;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 20px;
+  color: #4d4d4d;
+  margin-top: -3em;
+}
+.screen-1 .email input {
+  outline: none;
+  border: none;
+}
+.screen-1 .email input::-moz-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+.screen-1 .email input:-ms-input-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+.screen-1 .email input::placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+.screen-1 .email ion-icon {
+  color: #4d4d4d;
+  margin-bottom: -0.2em;
+}
+.screen-1 .password {
+  background: white;
+  box-shadow: 0 0 2em #e6e9f9;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 2px;
+  color: #4d4d4d;
+}
+.screen-1 .password input {
+  outline: none;
+  border: none;
+}
+.screen-1 .password input::-moz-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+.screen-1 .password input:-ms-input-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+.screen-1 .password input::placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+.screen-1 .password ion-icon {
+  color: #4d4d4d;
+  margin-bottom: -0.2em;
+}
+.screen-1 .password .show-hide {
+  margin-right: -5em;
+}
+.screen-1 .login {
+  padding: 1em;
+  background: #3e4684;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: 300;
+}
+.screen-1 .footer {
+  display: flex;
+  font-size: 0.7em;
+  color: #5e5e5e;
+  gap: 20em;
+  padding-bottom: 1em;
+}
+.screen-1 .footer span {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+}
+/* ------------------------------ Global Styles ------------------------------ */
+
+body {
+  font-family: var(--main-font);
+  line-height: 1.6em;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* ------------------------------ Header Styles ------------------------------ */
+
+header {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+/* ------------------------------ Navigation Styles ------------------------------ */
+
+nav {
+  background-color: var(--secondary-color);
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+/* ------------------------------ Main Columns Styles ------------------------------ */
+
+#OVERVIEW{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+/* Left Column Styles */
+#OVERVIEW.fl_left {
+  flex: 0 0 calc(33.333% - 20px);
+  padding: 20px;
+  background-color: #yellowgreen;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+/* Featured Slider Styles */
+#featured_slide {
+  height: 360px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Quick Links Styles */
+#hpage_quicklinks {
+  margin-bottom: 30px;
+}
+
+#hpage_quicklinks li {
+  margin-bottom: 10px;
+}
+
+#hpage_quicklinks li a {
+  display: block;
+  padding: 15px;
+  background-color: var(--primary-color);
+  color: red;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+#hpage_quicklinks li a:hover {
+  background-color: var(--secondary-color);
+}
+
+/* Gallery Styles */
+#hpage_gallery {
+  margin: 0 0 20px 0;
+}
+
+#hpage_gallery li {
+  margin: 0 10px 10px 0;
+}
+
+#hpage_gallery a {
+  display: block;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+#hpage_gallery a:hover {
+  transform: scale(1.05);
+}
+
+/* Right Column Styles */
+#OVERVIEW.fl_right {
+  flex: 0 0 calc(66.666% - 20px);
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+/* Latest News Styles */
+#hpage_latestnews {
+  margin-bottom: 30px;
+}
+
+#hpage_latestnews p.latestnews {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--text-color);
+  margin-bottom: 15px;
+}
+
+#hpage_latestnews p.readmore {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+#hpage_latestnews p.readmore:hover {
+  text-decoration: underline;
+}
+
+/* Specials Section Styles */
+#hpage_specials {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#hpage_specials li {
+  flex: 0 0 calc(50% - 20px);
+  margin: 0 10px 20px 0;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+#hpage_specials .box {
+  padding: 20px;
+}
+
+/* ------------------------------ Footer Styles ------------------------------ */
+
+#footer {
+  background-color: var(--primary-color);
+  color: browns;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* ------------------------------ Copyright Styles ------------------------------ */
+
+#copyright {
+  background-color: var(--secondary-color);
+  color: brown;
+  padding: 15px 20px;
+  text-align: center;
+  border-radius: 10px;
+}

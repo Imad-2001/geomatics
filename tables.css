@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+/*
+Template Name: Education Time
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+File: Tables CSS
+*/
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #444444;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #673ab7;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 0 0 20px 20px;
+}
+
+nav {
+  background-color: #9575cd;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff9800;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+#left_column, #right_column {
+  display: block;
+  width: 48%;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+#left_column {
+  background-color: #2196f3;
+}
+
+#right_column {
+  background-color: #ff5722;
+}
+
+.gallerycontainer {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-bottom: 2px solid #bdbdbd;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+li.last {
+  margin-right: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+  vertical-align: top;
+  margin-bottom: 20px;
+  border: 2px solid #757575;
+  border-radius: 10px;
+}
+
+thead th {
+  color: #ffffff;
+  background-color: #333333;
+  border: 2px solid #757575;
+  text-align: center;
+  padding: 15px;
+}
+
+tbody td {
+  vertical-align: top;
+  border-left: 2px solid #757575;
+  border-right: 2px solid #757575;
+  padding: 15px;
+}
+
+tbody tr.light {
+  color: #757575;
+  background-color: #e0e0e0;
+}
+
+tbody tr.dark {
+  color: #757575;
+  background-color: #bdbdbd;
+}
+
+#footer {
+  background-color: #4caf50;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 20px 20px 0 0;
+  text-align: center;
+}
+
+#copyright {
+  background-color: #ff9800;
+  color: #ffffff;
+  padding: 15px 20px;
+  text-align: center;
+  border-radius: 0 0 20px 20px;
+}
